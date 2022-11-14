@@ -1,11 +1,32 @@
-## My Project
+## asdf-smithy
 
-TODO: Fill this README out!
+Install the [Smithy](https://smithy.io) CLI using [asdf](https://asdf-vm.com).
 
-Be sure to:
+*asdf* is a tool that makes it easy to install mutliple versions of a tool
+on Linux or macOS. *asdf-smithy* is an asdf plugin that allows you to install
+different versions of the Smithy CLI using asdf.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+
+## Installation
+
+First, install asdf by following their
+[getting started guide](https://asdf-vm.com/guide/getting-started.html)
+
+Next, setup Smithy with asdf using:
+
+```
+asdf plugin add smithy https://github.com/aws/asdf-smithy.git
+```
+
+Finally, you can use the latest version of the Smithy CLI using:
+
+```
+asdf install smithy latest
+```
+
+Additional asdf usage information can be found in
+[the asdf documentation](https://asdf-vm.com/guide/getting-started.html#_4-install-a-plugin).
+
 
 ## Security
 
