@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "The Smithy CLI is a tool for building, validating, querying, and iterating on Smithy models."

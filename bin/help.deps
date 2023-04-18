@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo "installation-deps:"
+cat <<-EOM
+	    curl
+	    jq
+	    tar
+EOM
