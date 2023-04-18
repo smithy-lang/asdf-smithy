@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Git Repository:    https://github.com/awslabs/smithy"
+echo "Documentation:     https://smithy.io"

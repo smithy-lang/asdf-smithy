@@ -24,6 +24,14 @@ Finally, you can use the latest version of the Smithy CLI using:
 asdf install smithy latest
 ```
 
+## Testing:
+
+```shell
+# asdf plugin test <plugin-name> <plugin-url> [--asdf-tool-version <version>] [--asdf-plugin-gitref <git-ref>] [test-command*]
+asdf plugin test smithy https://github.com/aws/asdf-smithy.git "smithy --help"
+```
+Tests are automatically run in GitHub Actions on push and PR.
+
 Additional asdf usage information can be found in
 [the asdf documentation](https://asdf-vm.com/guide/getting-started.html#_4-install-a-plugin).
 
