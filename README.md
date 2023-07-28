@@ -15,7 +15,7 @@ First, install asdf by following their
 Next, setup Smithy with asdf using:
 
 ```
-asdf plugin add smithy https://github.com/aws/asdf-smithy.git
+asdf plugin add smithy https://github.com/smithy-lang/asdf-smithy.git
 ```
 
 Finally, you can use the latest version of the Smithy CLI using:
@@ -28,7 +28,7 @@ asdf install smithy latest
 
 ```shell
 # asdf plugin test <plugin-name> <plugin-url> [--asdf-tool-version <version>] [--asdf-plugin-gitref <git-ref>] [test-command*]
-asdf plugin test smithy https://github.com/aws/asdf-smithy.git "smithy --help"
+asdf plugin test smithy https://github.com/smithy-lang/asdf-smithy.git "smithy --help"
 ```
 Tests are automatically run in GitHub Actions on push and PR.
 
