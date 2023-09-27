@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-REPO="awslabs/smithy"
+REPO="smithy-lang/smithy"
 GH_REPO="https://github.com/$REPO"
 GH_REPO_API="https://api.github.com/repos/$REPO"
 TOOL_NAME="smithy"
